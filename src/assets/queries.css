@@ -1,0 +1,36 @@
+@media(max-width:800px){
+    .pokemonList{
+        width:100%;
+        max-width:50vw;
+    }
+
+    .pokemonList ul{
+        max-height:65%;
+    }
+
+    .characterBoxTemplate{
+        width:100%;
+        max-width:100%;
+        flex-direction: column;
+    }
+
+    .characterBoxTemplate .characterImage, .characterBoxTemplate .characterDetails{
+        width:100%;
+        flex-direction: column;
+    }
+
+    .characterDetails .characterAbilities h3{
+        color:#000;
+        margin-top:30px;
+        font-weight:600;
+    }
+}
+
+
+@media(max-width:1100px){
+    .pokemonList{
+        width:100%;
+        max-width:40vw;
+    }
+
+}
